@@ -1,0 +1,16 @@
+{
+  "absolute_deviation_one": 0.010000000000000009,
+  "absolute_deviation_zero": 0.010000000000000009,
+  "acceptance_lower": 0.45,
+  "acceptance_upper": 0.55,
+  "expected_rate": 0.5,
+  "experiment_id": "FND-RBIT-001",
+  "one_count": 490,
+  "one_rate": 0.49,
+  "pass": true,
+  "run_id": "FND-RBIT-001_20260826T000720165466Z",
+  "source_raw_file": "results/raw/fundamentals/FND-RBIT-001_20260826T000720165466Z.json",
+  "trial_count": 1000,
+  "zero_count": 510,
+  "zero_rate": 0.51
+}

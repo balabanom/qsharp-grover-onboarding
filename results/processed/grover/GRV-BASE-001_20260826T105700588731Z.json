@@ -1,0 +1,65 @@
+{
+  "absolute_deviations": {
+    "target=2,iterations=1": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+    }
+  },
+  "acceptance_rule": {
+    "accepted_non_target_outcomes": 0,
+    "condition": "all 1000 outcomes equal target 2",
+    "type": "exact_target"
+  },
+  "configuration_summaries": [
+    {
+      "absolute_deviation_from_theory": 0.0,
+      "configuration_index": 0,
+      "iterations": 1,
+      "outcome_counts": {
+        "0": 0,
+        "1": 0,
+        "2": 1000,
+        "3": 0
+      },
+      "outcome_rates": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 1.0,
+        "3": 0.0
+      },
+      "pass": true,
+      "shots": 1000,
+      "target": 2,
+      "target_success_count": 1000,
+      "target_success_rate": 1.0,
+      "theoretical_target_success_rate": 1.0
+    }
+  ],
+  "experiment_id": "GRV-BASE-001",
+  "measured_rates": {
+    "target=2,iterations=1": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 1.0,
+      "3": 0.0
+    }
+  },
+  "pass": true,
+  "schema_version": "1.0",
+  "source_raw_file": "results/raw/grover/GRV-BASE-001_20260826T105700588731Z.json",
+  "suite_id": "20260826T105700588731Z",
+  "theoretical_probabilities": [
+    {
+      "iterations": 1,
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 1.0,
+        "3": 0.0
+      },
+      "target": 2
+    }
+  ]
+}

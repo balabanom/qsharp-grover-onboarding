@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="520" viewBox="0 0 840 520">
+  <style>
+    text { font-family: Arial, sans-serif; fill: #172033; }
+    .title { font-size: 22px; font-weight: 700; }
+    .subtitle { font-size: 13px; }
+    .label { font-size: 15px; }
+    .value { font-size: 13px; font-weight: 700; }
+    .axis { stroke: #64748b; stroke-width: 1; }
+    .theory { stroke: #dc2626; stroke-width: 2; fill: none; }
+  </style>
+  <rect width="840" height="520" fill="#ffffff" />
+  <text x="420" y="34" text-anchor="middle" class="title">GRV-ITER-001 Target Success by Iteration</text>
+  <text x="420" y="58" text-anchor="middle" class="subtitle">Suite 20260826T105700588731Z · target 2 · red points show theory</text>
+  <line x1="90" y1="430" x2="790" y2="430" class="axis" />
+  <line x1="90" y1="100" x2="90" y2="430" class="axis" />
+  <text x="78" y="435" text-anchor="end" class="subtitle">0%</text>
+  <text x="78" y="270" text-anchor="end" class="subtitle">50%</text>
+  <text x="78" y="105" text-anchor="end" class="subtitle">100%</text>
+  <rect x="190" y="344.53" width="90" height="85.47" fill="#2563eb" />
+  <text x="235" y="335.53" text-anchor="middle" class="value">25.9%</text>
+  <text x="235" y="458" text-anchor="middle" class="label">Iterations 0</text>
+  <rect x="420" y="100.00" width="90" height="330.00" fill="#2563eb" />
+  <text x="465" y="91.00" text-anchor="middle" class="value">100.0%</text>
+  <text x="465" y="458" text-anchor="middle" class="label">Iterations 1</text>
+  <rect x="650" y="354.43" width="90" height="75.57" fill="#2563eb" />
+  <text x="695" y="345.43" text-anchor="middle" class="value">22.9%</text>
+  <text x="695" y="458" text-anchor="middle" class="label">Iterations 2</text>
+  <polyline points="235,347.50 465,100.00 695,347.50" class="theory" />
+  <circle cx="235" cy="347.50" r="5" fill="#dc2626" />
+  <circle cx="465" cy="100.00" r="5" fill="#dc2626" />
+  <circle cx="695" cy="347.50" r="5" fill="#dc2626" />
+</svg>

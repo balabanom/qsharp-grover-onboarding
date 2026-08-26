@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log

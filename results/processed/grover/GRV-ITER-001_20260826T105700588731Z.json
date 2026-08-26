@@ -1,0 +1,159 @@
+{
+  "absolute_deviations": {
+    "target=2,iterations=0": {
+      "0": 0.015999999999999986,
+      "1": 0.013000000000000012,
+      "2": 0.009000000000000008,
+      "3": 0.006000000000000005
+    },
+    "target=2,iterations=1": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+    },
+    "target=2,iterations=2": {
+      "0": 0.01100000000000001,
+      "1": 0.0050000000000000044,
+      "2": 0.02099999999999999,
+      "3": 0.015000000000000013
+    }
+  },
+  "acceptance_rule": {
+    "iteration_1": "all 1000 outcomes equal target 2",
+    "iterations_0_and_2": {
+      "condition": "every candidate rate is within the inclusive band",
+      "lower_inclusive": 0.2,
+      "upper_inclusive": 0.3
+    },
+    "type": "iteration_specific"
+  },
+  "configuration_summaries": [
+    {
+      "absolute_deviation_from_theory": 0.009000000000000008,
+      "configuration_index": 0,
+      "iterations": 0,
+      "outcome_counts": {
+        "0": 234,
+        "1": 263,
+        "2": 259,
+        "3": 244
+      },
+      "outcome_rates": {
+        "0": 0.234,
+        "1": 0.263,
+        "2": 0.259,
+        "3": 0.244
+      },
+      "pass": true,
+      "shots": 1000,
+      "target": 2,
+      "target_success_count": 259,
+      "target_success_rate": 0.259,
+      "theoretical_target_success_rate": 0.25
+    },
+    {
+      "absolute_deviation_from_theory": 0.0,
+      "configuration_index": 1,
+      "iterations": 1,
+      "outcome_counts": {
+        "0": 0,
+        "1": 0,
+        "2": 1000,
+        "3": 0
+      },
+      "outcome_rates": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 1.0,
+        "3": 0.0
+      },
+      "pass": true,
+      "shots": 1000,
+      "target": 2,
+      "target_success_count": 1000,
+      "target_success_rate": 1.0,
+      "theoretical_target_success_rate": 1.0
+    },
+    {
+      "absolute_deviation_from_theory": 0.02099999999999999,
+      "configuration_index": 2,
+      "iterations": 2,
+      "outcome_counts": {
+        "0": 261,
+        "1": 245,
+        "2": 229,
+        "3": 265
+      },
+      "outcome_rates": {
+        "0": 0.261,
+        "1": 0.245,
+        "2": 0.229,
+        "3": 0.265
+      },
+      "pass": true,
+      "shots": 1000,
+      "target": 2,
+      "target_success_count": 229,
+      "target_success_rate": 0.229,
+      "theoretical_target_success_rate": 0.25
+    }
+  ],
+  "experiment_id": "GRV-ITER-001",
+  "measured_rates": {
+    "target=2,iterations=0": {
+      "0": 0.234,
+      "1": 0.263,
+      "2": 0.259,
+      "3": 0.244
+    },
+    "target=2,iterations=1": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 1.0,
+      "3": 0.0
+    },
+    "target=2,iterations=2": {
+      "0": 0.261,
+      "1": 0.245,
+      "2": 0.229,
+      "3": 0.265
+    }
+  },
+  "pass": true,
+  "schema_version": "1.0",
+  "source_raw_file": "results/raw/grover/GRV-ITER-001_20260826T105700588731Z.json",
+  "suite_id": "20260826T105700588731Z",
+  "theoretical_probabilities": [
+    {
+      "iterations": 0,
+      "probabilities": {
+        "0": 0.25,
+        "1": 0.25,
+        "2": 0.25,
+        "3": 0.25
+      },
+      "target": 2
+    },
+    {
+      "iterations": 1,
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 1.0,
+        "3": 0.0
+      },
+      "target": 2
+    },
+    {
+      "iterations": 2,
+      "probabilities": {
+        "0": 0.25,
+        "1": 0.25,
+        "2": 0.25,
+        "3": 0.25
+      },
+      "target": 2
+    }
+  ]
+}

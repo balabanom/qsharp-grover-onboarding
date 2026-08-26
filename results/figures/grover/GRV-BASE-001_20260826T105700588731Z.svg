@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="520" viewBox="0 0 840 520">
+  <style>
+    text { font-family: Arial, sans-serif; fill: #172033; }
+    .title { font-size: 22px; font-weight: 700; }
+    .subtitle { font-size: 13px; }
+    .label { font-size: 15px; }
+    .value { font-size: 13px; font-weight: 700; }
+    .axis { stroke: #64748b; stroke-width: 1; }
+    .theory { stroke: #dc2626; stroke-width: 2; fill: none; }
+  </style>
+  <rect width="840" height="520" fill="#ffffff" />
+  <text x="420" y="34" text-anchor="middle" class="title">GRV-BASE-001 Outcome Distribution</text>
+  <text x="420" y="58" text-anchor="middle" class="subtitle">Suite 20260826T105700588731Z · target 2 · red markers show theory</text>
+  <line x1="90" y1="430" x2="790" y2="430" class="axis" />
+  <line x1="90" y1="100" x2="90" y2="430" class="axis" />
+  <text x="78" y="435" text-anchor="end" class="subtitle">0%</text>
+  <text x="78" y="270" text-anchor="end" class="subtitle">50%</text>
+  <text x="78" y="105" text-anchor="end" class="subtitle">100%</text>
+  <rect x="145" y="430.00" width="90" height="0.00" fill="#2563eb" />
+  <text x="190" y="421.00" text-anchor="middle" class="value">0 (0.0%)</text>
+  <text x="190" y="458" text-anchor="middle" class="label">0</text>
+  <line x1="140" y1="430.00" x2="240" y2="430.00" class="theory" />
+  <rect x="305" y="430.00" width="90" height="0.00" fill="#2563eb" />
+  <text x="350" y="421.00" text-anchor="middle" class="value">0 (0.0%)</text>
+  <text x="350" y="458" text-anchor="middle" class="label">1</text>
+  <line x1="300" y1="430.00" x2="400" y2="430.00" class="theory" />
+  <rect x="465" y="100.00" width="90" height="330.00" fill="#16a34a" />
+  <text x="510" y="91.00" text-anchor="middle" class="value">1000 (100.0%)</text>
+  <text x="510" y="458" text-anchor="middle" class="label">2 (target)</text>
+  <line x1="460" y1="100.00" x2="560" y2="100.00" class="theory" />
+  <rect x="625" y="430.00" width="90" height="0.00" fill="#2563eb" />
+  <text x="670" y="421.00" text-anchor="middle" class="value">0 (0.0%)</text>
+  <text x="670" y="458" text-anchor="middle" class="label">3</text>
+  <line x1="620" y1="430.00" x2="720" y2="430.00" class="theory" />
+</svg>
