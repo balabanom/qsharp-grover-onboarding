@@ -11,3 +11,19 @@ __pycache__/
 # Temporary files
 *.tmp
 *.log
+
+# Secrets / local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+credentials.json
+service-account*.json
+.secrets/

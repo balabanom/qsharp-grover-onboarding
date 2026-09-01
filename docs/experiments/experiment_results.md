@@ -26,14 +26,14 @@ QDK:    1.31.0
 Backend: QDK local simulator (qsharp.run default)
 ```
 
-The random-bit checkpoint and the Grover suite were generated at different stages of the project, so they have different original development-repository commit identifiers.
+The random-bit checkpoint and the Grover suite were generated at different stages of the project.
 
 ### Random-bit run
 
 ```text
 Experiment ID: FND-RBIT-001
 Run ID:        FND-RBIT-001_20260826T000720165466Z
-Git commit:    b419c1d7d07d958c737808c52b2640d2481aab5a
+Git commit:    omitted-from-public-export
 Git dirty:     false
 Callable:      RandomBit.Main()
 ```
@@ -42,12 +42,12 @@ Callable:      RandomBit.Main()
 
 ```text
 Suite ID:      20260826T105700588731Z
-Git commit:    f8b8179ccc794109401389b9eb4d9b6a74c2c0d7
+Git commit:    omitted-from-public-export
 Git dirty:     false
 Callable:      Grover.RunGroverSearch(target, iterations)
 ```
 
-The commit identifiers above belong to the original validated development repository from which this curated submission was exported. They are intentionally preserved in the raw metadata and may not resolve inside this clean submission repository.
+Development-repository commit identifiers are omitted from this public submission.
 
 ---
 
@@ -115,7 +115,7 @@ The final Grover suite contains three experiments:
 | `GRV-ITER-001` | compare 0, 1, and 2 iterations | 3,000 |
 | **Total** |  | **5,000** |
 
-All three experiments share the same suite ID and generating commit.
+All three experiments share the same suite ID.
 
 ---
 

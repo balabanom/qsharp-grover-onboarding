@@ -240,7 +240,7 @@ results/figures/
 
 Raw JSON files retain individual simulator outcomes. Processed files are derived from those raw outcomes, and the SVG figures are generated from the measured summaries.
 
-The preserved raw metadata contains Git commit identifiers from the original validated development repository from which this curated submission was exported. Those provenance hashes are intentionally left unchanged, even though they may not resolve inside this clean submission repository.
+The preserved raw metadata retains the experiment configuration and environment details. Development-repository commit identifiers are omitted from this public submission.
 
 The included experiment runners can be used for small smoke runs outside the repository. They should not be used merely to overwrite the preserved accepted evidence.
 
